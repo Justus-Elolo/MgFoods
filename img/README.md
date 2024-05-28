@@ -1,0 +1,1 @@
+This are purely image files
