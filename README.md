@@ -9,21 +9,26 @@ Features
 Menu Display
 
 -View our dynamic menu with items categorized for easy browsing.
+
 -Enjoy a consistent experience across all devices, whether a smartphone or a desktop
 
 Cart Functionality
 
 -Easily add your favorite dishes to the cart with a single click.
+
 -Update item quantities and remove items directly from the cart.
+
 -Intuitive design ensures a hassle-free ordering process.
 
 User Authentication
 -Create an account and log in securely using encrypted passwords.
+
 -Session management, persistent sessions ensure you stay logged in across visits.
 
 Order Placement
 
 -Place orders with a streamlined checkout process.
+
 -Secure payment integration to handle transactions.
 
 Feedback Mechanism
@@ -32,7 +37,8 @@ Feedback Mechanism
 
 Usage
 
--open your browser and go to http://localhost:5000 to view the app.
+-open your browser and go to http://localhost to view the app.
+
 -Register an account or log in to start browsing the menu and adding items to your cart.
 
 Contributing
