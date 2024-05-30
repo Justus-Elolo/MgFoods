@@ -1,6 +1,7 @@
 MgFoods Web App
 
 Project Overview
+
 Welcome to MgFoods! This project aims to provide a seamless online experience for customers to explore our diverse menu, place orders and enjoy our culinary delights from the comfort of their homes. This application is built with a focus on user-friendliness, perfomance, and security.
 
 Features
