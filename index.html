@@ -1,6 +1,33 @@
-<?php
-include("includes/front/top.php");
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Mg Foods</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="" name="BigFish Restaurant Nairobi Kenya">
+	<meta content="" name="Online Food Order Processing Website for BigFish Restaurant Nairobi">
+
+	<!-- Favicons -->
+	<link href="img/logo/mgfoodhavenlogo2.jpg" rel="icon">
+	<link href="img/logo/mgfoodhavenlogo2.jpg" rel="apple-touch-icon">
+
+	<!-- Google Fonts -->
+	<link href="css/fonts.css" rel="stylesheet">
+
+	<!-- Bootstrap CSS File -->
+	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Libraries CSS Files -->
+	<link href="admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">	
+	<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="lib/animate/animate.min.css" rel="stylesheet">
+	<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+	<!-- Main Stylesheet File -->
+	<link href="css/style.css" rel="stylesheet">
+    
 <head>
 <link rel="stylesheet" type="text/css" href="loginpage/css/util.css">
 <link rel="stylesheet" type="text/css" href="css/contactform.css">
@@ -11,8 +38,32 @@ include("includes/front/top.php");
 
 <body>
 
-	<?php include("includes/front/header_static.php"); ?>
-
+	<header id="header">
+        <div class="container-fluid">
+    
+          <div id="logo" class="pull-left">
+            <h1><a href="index#intro" class="scrollto"> Mg Foods</a></h1>
+            <!-- image logo -->
+            <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+          </div>
+    
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+                <li class="menu-active"><a href="index#intro">Home</a></li>
+                <li><a href="index#about">About Us</a></li>
+                <li><a href="index#services">Menu</a></li>
+                <li><a href="index#contact">Contact</a></li>
+                <li id="cart-tooltip" tabindex="0" data-placement="bottom" role="button" data-toggle="popover" data-html="true" data-trigger="focus"><a href="cart">Cart</a></li>
+          
+                <ul>
+                    
+                </ul>
+            </li>
+            </ul>
+          </nav><!-- #nav-menu-container -->
+        </div>
+      </header>
+      <!-- #header -->
 	<!--==========================
     Intro Section
   ============================-->
@@ -110,7 +161,7 @@ include("includes/front/top.php");
 
 				<div class="row">
 
-					<?php $cust->display_categories_homepage(); ?>
+					
 
 				</div>
 
@@ -216,4 +267,207 @@ include("includes/front/top.php");
 
 
 
-	<?php include("includes/front/footer.php"); ?>
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Mg Foods Restaurant</h3>
+            <p>Prices may be subject to applicable taxes and charges and may also change without prior notice. Please check prices on the website before ordering.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4 class="footer-h4">Useful Links</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index#intro">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index#about">About us</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index#services">Menu</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="login">Login</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="register">Register</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4 class="footer-h4">Contact Us</h4>
+            <p>
+              Roasters, Garden Estate Rd<br> Opp Roasters inn, Nairobi<br>Kenya<br>
+              <strong>Phone:</strong>  0792453373<br>
+              <strong>Email:</strong> restaurant@mgfoods.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="https://twitter.com" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://facebook.com" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://instagram.com" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://google.com" target="_blank" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="https://linkedin.com" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4 class="footer-h4">Our Newsletter</h4>
+            <p>Be updated with our new offers, coupons and addition of new food items into the menu. Enter your email ID below and subscribe to our newsletter so that you do not miss any update.</p>
+            <form action="index" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Mg Foods Restaurant</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <div id="preloader"></div>
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title cart-item-icon" id="exampleModalLabel"><i class="fas fa-shopping-cart"></i></h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       
+      </div>
+      <div class="modal-footer">
+        <a href="cart" class="btn btn-success">
+            <span class="icon text-white-50">
+            <i class="fas fa-arrow-right"></i>
+            </span>
+            <span class="text">Goto Cart</span>
+        </a>        
+        <button type="button" class="btn btn-danger" data-dismiss="modal">
+            <span class="icon text-white-50">
+            <i class="fas fa-times"></i>
+            </span>
+            <span class="text">Close</span>
+        </button>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- View Orders Modal -->
+<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="modalOrders" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-orders modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalOrders">My Orders</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-bordered table-responsive" id="dataTable" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+                <th>Order #</th>
+                <th>Item Title</th>
+                <th>Amount</th>
+                <th>Order Placed</th>
+                <th>Payment Mode</th>
+                <th>Order Status</th>
+            </tr>
+          </thead>
+          <tbody>
+                
+          </tbody>
+        </table>            
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Order History Modal -->
+<div class="modal fade" id="exampleModalOrderHistory" tabindex="-1" role="dialog" aria-labelledby="modalOrders" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-orders modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalOrders">Order History</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-bordered table-responsive" id="dataTable" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+                <th>Order #</th>
+                <th>Item Title</th>
+                <th>Amount</th>
+                <th>Order Placed</th>
+                <th>Payment Mode</th>
+                <th>Order Delivered</th>
+            </tr>
+          </thead>
+          <tbody>
+              
+          </tbody>
+        </table>            
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript Libraries -->
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/jquery/jquery-migrate.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+<!--   <script type="text/javascript">
+$('#cart-tooltip').popover('show')
+
+setTimeout("$('#cart-tooltip').popover('hide')", 5000);
+</script> -->
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/superfish/hoverIntent.js"></script>
+<script src="lib/superfish/superfish.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<!-- <script src="lib/owlcarousel/owl.carousel.min.js"></script> -->
+<script src="lib/isotope/isotope.pkgd.min.js"></script>
+<script src="lib/lightbox/js/lightbox.js"></script>
+<script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+<!-- Contact Form JavaScript File -->
+<script src="contactform/contactform.js"></script>
+
+<!-- Template Main Javascript File -->
+<script src="js/main.js"></script>
+<script src="loginpage/js/main.js"></script>
+
+</body>
+</html>
